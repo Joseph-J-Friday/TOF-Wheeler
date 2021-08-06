@@ -55,8 +55,5 @@ io.on('connection',(socket)=>{
 	socket.on("endLeft",(room)=>{socket.to(room).emit("endLeft")});
 	socket.on("right",(room)=>{socket.to(room).emit("right")});
 	socket.on("endRight",(room)=>{socket.to(room).emit("endRight")});
-
-
-
 });
 
