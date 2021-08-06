@@ -1,5 +1,5 @@
 var x = 4,
-	y = 51.5,
+	y = 51.4,
 	wheel,wheelS,
 	rod,rodS,
 	dot,dotS,
@@ -86,7 +86,7 @@ class ME{
 		dotS.width = "4px";
 		dotS.height = "4px";
 		dotS.clipPath = "circle()";
-		dotS.top = (y+3.2) + "%";
+		dotS.top = (y+2.2) + "%";
 		dotS.left = (x+5) + "%";
 		game.appendChild(dot);
 		head = document.createElement("div");
@@ -96,7 +96,7 @@ class ME{
 		headS.width = "20px";
 		headS.height = "25px";
 		headS.borderRadius = "50%";
-		headS.top = (y-4.5) + "%";
+		headS.top = (y-5.3) + "%";
 		headS.left = (x+2) + "%";
 		game.appendChild(head);
 		back = document.createElement("div");
