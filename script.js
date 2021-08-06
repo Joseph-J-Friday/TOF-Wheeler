@@ -96,7 +96,7 @@ class ME{
 		headS.width = "20px";
 		headS.height = "25px";
 		headS.borderRadius = "50%";
-		headS.top = (y-5.3) + "%";
+		headS.top = (y-9) + "%";
 		headS.left = (x+2) + "%";
 		game.appendChild(head);
 		back = document.createElement("div");
@@ -299,7 +299,7 @@ const noDefense = () =>{
 }
             /** OPPONENT SECTION **/
 var _x = 4,
-	_y = 51.5,
+	_y = 51.4,
 	_wheel,_wheelS,
 	_rod,_rodS,
 	_dot,_dotS,
@@ -339,7 +339,7 @@ class HIM{
 		_rodS.border = "1.5px solid black";
 		_rodS.width = "10px";
 		_rodS.height = "40px";
-		_rodS.top = (_y-4) + "%";
+		_rodS.top = (_y-3.5) + "%";
 		_rodS.right = (_x+3.5) + "%";
 		_rodS.borderRadius = "15px";
 		game.appendChild(_rod);
@@ -350,7 +350,7 @@ class HIM{
 		_dotS.width = "4px";
 		_dotS.height = "4px";
 		_dotS.clipPath = "circle()";
-		_dotS.top = (_y+2.7) + "%";
+		_dotS.top = (_y+2.2) + "%";
 		_dotS.right = (_x+5) + "%";
 		game.appendChild(_dot);
 		_head = document.createElement("div");
@@ -370,7 +370,7 @@ class HIM{
 		_backS.width = "17px";
 		_backS.height = "22px";
 		_backS.borderRadius = "30%";
-		_backS.top = (_y-5) + "%";
+		_backS.top = (_y-4.5) + "%";
 		_backS.right = (_x+2) + "%";
 		game.appendChild(_back);
 		_shd = new _Shield();
@@ -388,7 +388,7 @@ class HIM{
 		_handS.width = "4px";
 		_handS.height = "25px";
 		_handS.borderRadius = "50px";
-		_handS.top = (_y-3.8) + "%";
+		_handS.top = (_y-3.3) + "%";
 		_handS.right = (_x+5) + "%";
 		game.appendChild(_hand);
 	}
