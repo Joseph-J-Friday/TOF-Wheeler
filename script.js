@@ -75,7 +75,7 @@ class ME{
 		rodS.border = "1.5px solid black";
 		rodS.width = "10px";
 		rodS.height = "40px";
-		rodS.top = (y-4) + "%";
+		rodS.top = (y-3.5) + "%";
 		rodS.left = (x+3.5) + "%";
 		rodS.borderRadius = "15px";
 		game.appendChild(rod);
@@ -86,7 +86,7 @@ class ME{
 		dotS.width = "4px";
 		dotS.height = "4px";
 		dotS.clipPath = "circle()";
-		dotS.top = (y+2.7) + "%";
+		dotS.top = (y+3.2) + "%";
 		dotS.left = (x+5) + "%";
 		game.appendChild(dot);
 		head = document.createElement("div");
@@ -96,7 +96,7 @@ class ME{
 		headS.width = "20px";
 		headS.height = "25px";
 		headS.borderRadius = "50%";
-		headS.top = (y-9) + "%";
+		headS.top = (y-4.5) + "%";
 		headS.left = (x+2) + "%";
 		game.appendChild(head);
 		back = document.createElement("div");
@@ -106,7 +106,7 @@ class ME{
 		backS.width = "17px";
 		backS.height = "22px";
 		backS.borderRadius = "30%";
-		backS.top = (y-5) + "%";
+		backS.top = (y-4.5) + "%";
 		backS.left = (x+2) + "%";
 		game.appendChild(back);
 		shd = new Shield();
@@ -124,7 +124,7 @@ class ME{
 		handS.width = "4px";
 		handS.height = "25px";
 		handS.borderRadius = "50px";
-		handS.top = (y-3.8) + "%";
+		handS.top = (y-3.3) + "%";
 		handS.left = (x+5) + "%";
 		game.appendChild(hand);
 	}
