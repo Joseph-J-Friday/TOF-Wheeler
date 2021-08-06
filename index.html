@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no"></meta>
+<title>Tof Wheeler</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="lit">
+<img src="TF.png" id="logo">
+<img src="axe.jpg" id="axelogo">
+<div id="creator">By Joseph J. Friday</div>
+</div>
+<div id="CGP">
+<input type="text" id="pn" placeholder="PLAYER NAME" required>
+<input type="text" id="gi" placeholder="GAME ID" required>
+<button id="backBtn" onclick="previousPage()">Back</button>
+<button id="proceedBtn" onclick="proceed()">Proceed</button>
+</div>
+<div id="gameInit">
+<div id="JG">Join Game</div>
+<div id="listBox"></div>
+<button  id="createButton" onclick="createGame('')">Create Game</button>
+</div>
+<div id="game">
+<img src="wall.jpg" id="wall">
+<img src="left.png" id="left">
+<img src="right.png" id="right">
+<img src="axe.jpg" id="attack">
+<img src="shieldBtn.png" id="shieldBtn">
+<div id="meLifeCon">
+<div id="meLife"></div>
+</div>
+<div id="himLifeCon">
+<div id="himLife"></div>
+</div>
+<div id="meName" ontouchstart="return false"></div>
+<img src="shieldBtn.png" id="meShield">
+<div id="sbrkMe"></div>
+<div id="himName" ontouchstart="return false"></div>
+<img src="shieldBtn.png" id="himShield">
+<div id="sbrkHim"></div>
+<img src="gameover.png" id="gameover">
+<div id="win" ontouchstart="return false"></div>
+<div id="message" ontouchstart="return false"></div>
+</div>
+</body>
+</html>
+
+<script src="/socket.io/socket.io.js"></script src="/socket.io/socket.io.js"></script>
+<script src="./client.js"></script>
+<script src="./script.js"></script>
