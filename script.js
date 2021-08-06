@@ -299,7 +299,7 @@ const noDefense = () =>{
 }
             /** OPPONENT SECTION **/
 var _x = 4,
-	_y = 50,
+	_y = 51.5,
 	_wheel,_wheelS,
 	_rod,_rodS,
 	_dot,_dotS,
@@ -360,7 +360,7 @@ class HIM{
 		_headS.width = "20px";
 		_headS.height = "25px";
 		_headS.borderRadius = "50%";
-		_headS.top = (_y-10) + "%";
+		_headS.top = (_y-9) + "%";
 		_headS.right = (_x+2) + "%";
 		game.appendChild(_head);
 		_back = document.createElement("div");
