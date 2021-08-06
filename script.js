@@ -96,7 +96,7 @@ class ME{
 		headS.width = "20px";
 		headS.height = "25px";
 		headS.borderRadius = "50%";
-		headS.top = (y-8.7) + "%";
+		headS.top = (y-8.5) + "%";
 		headS.left = (x+2) + "%";
 		game.appendChild(head);
 		back = document.createElement("div");
@@ -360,7 +360,7 @@ class HIM{
 		_headS.width = "20px";
 		_headS.height = "25px";
 		_headS.borderRadius = "50%";
-		_headS.top = (_y-8.7) + "%";
+		_headS.top = (_y-8.5) + "%";
 		_headS.right = (_x+2) + "%";
 		game.appendChild(_head);
 		_back = document.createElement("div");
