@@ -9,9 +9,9 @@ const port = process.env.PORT || 7777;
 
 var ROOMS = [];
 
-app.use(express.static('folder'));
+app.use(express.static('__dirname'));
 app.get('/',(req,res)=>{
-	res.sendFile(path.join(__dirname,'/folder/index.html'));
+	res.sendFile(path.join(__dirname,'/index.html'));
 });
 server.listen(port,()=>{
 	console.log("LISTENING...");
