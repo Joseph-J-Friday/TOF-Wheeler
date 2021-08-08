@@ -570,7 +570,7 @@ const prepare = () =>{
 }
 const joined = (Nm) =>{
         himName.innerHTML = Nm;
-        message(name+" is connected");
+        message(Nm+" is connected");
         gameON = true;
         soc.emit("myName",{r: room, n: name});
 }
