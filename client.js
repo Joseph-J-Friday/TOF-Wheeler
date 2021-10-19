@@ -40,4 +40,4 @@ soc.on("right",()=>{_moveRight()});
 soc.on("endLeft",()=>{clearTimeout(_ltInterv); _wheelS.animation = ""});
 soc.on("endRight",()=>{clearTimeout(_rtInterv); _wheelS.animation = ""});
 
-window.onload = ()=>{setTimeout(()=>{lit.display="none";gameInit.display="block"},10000)}
+window.onload = ()=>{setTimeout(()=>{lit.display="none";gameInit.display="block"},7000)}
